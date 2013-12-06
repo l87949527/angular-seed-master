@@ -37,6 +37,9 @@ angular.module('myApp.controllers', []).
 
 
   })
+    .controller('testGitBranch',['$scope',function($scope){
+        //There is nothing!
+    }])
   .controller('UserDetailCtrl', ['$scope', '$routeParams', 'dataService', function(s, r, d) {
         var selectedId = r.id;
         var user = d.getUserById(selectedId);
