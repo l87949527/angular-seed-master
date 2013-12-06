@@ -1,0 +1,52 @@
+<p>This is the partial for view 2.</p>
+<p>
+  Showing of 'interpolate' filter:
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</p>
+
+
+
+
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="inputName" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-5">
+                <div inline-edit="person.name"></div>
+                <!--<input  type="text" class="form-control"  id="inputName" ng-model="person.name" placeholder="Name"> -->
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-5">
+                <div inline-edit="person.email"></div>
+                <!--<input type="text" class="form-control" id="inputOccupation" ng-model="person.occupation" placeholder="Occupation"> -->
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputOccupation" class="col-sm-2 control-label">Occupation</label>
+            <div class="col-sm-5">
+                <div inline-edit="person.occupation"></div>
+                <!--<input type="text" class="form-control" id="inputOccupation" ng-model="person.occupation" placeholder="Occupation"> -->
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputHobby" class="col-sm-2 control-label">Hobby</label>
+            <div class="col-sm-5">
+                <div inline-edit="person.hobby"></div>
+                <!--<input type="text" class="form-control" id="inputHobby" ng-model="person.hobby" placeholder="Hobby"> -->
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <a href="#/userList" class="btn btn-default">Back</a>
+            </div>
+        </div>
+    </form>
+
+
+

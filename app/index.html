@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body>
+
+
+
+<div class="container bs-docs-container ng-cloak" ng-controller = "MainCtrl">
+
+    <img ng-hide="config.isShowPage" src="/app/img/spinner.gif" style="width:400px" />
+
+<div ng-show="config.isShowPage">
+  <ul class="menu">
+    <li><a href="#/userList">Users</a></li>
+    <li><a href="#/userDetail/{{user.id}}" ng-bind-template="{{user.name}}">View 2</a></li>
+  </ul>
+
+
+  <div ng-bind="summary"></div>
+  <div ng-bind="desc"></div>
+
+  <div ng-view ></div>
+
+  <div>Angular seed app: v<span app-version></span></div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="lib/angular-translate/angular-translate.min.js"></script>
+  <script src="lib/angular/angular-sanitize.min.js"></script>
+  <script src="lib/jquery/jquery-2.0.3.min.js"></script>
+  <script src="lib/bootstrap/bootstrap.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</div>
+</div>
+  
+</body>
+</html>

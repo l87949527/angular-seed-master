@@ -1,0 +1,48 @@
+{
+            "dataSet" : [
+                {
+                    "id" : "0",
+                    "name": "James Hoffman",
+                    "occupation": "Teacher",
+                    "hobby" : "Reading",
+                    "email" : "james.hoffman@myapp.com"
+                },
+                {
+                    "id": "1",
+                    "name": "Simon Smith",
+                    "occupation": "Salesman",
+                    "hobby" : "Swimming",
+                    "email": "simon.smith@myapp.com"
+                },
+                {
+                    "id": "2",
+                    "name": "Denis Webber",
+                    "occupation": "Engineer",
+                    "hobby" : "Football",
+                    "email": "denis.webber@myapp.com"
+                },
+                {
+                    "id": "3",
+                    "name": "Sean Cyrus",
+                    "occupation": "Cashier",
+                    "hobby" : "Counting money",
+                    "email": "sean.cyrus@myapp.com"
+                },
+                {
+                    "id": "4",
+                    "name": "Kathy Sanna",
+                    "occupation": "Accountant",
+                    "hobby" : "Reading",
+                    "email": "kathy.sanna@myapp.com"
+                },
+                {
+                    "id": "5",
+                    "name": "Mauren Tomas",
+                    "occupation": "Banker",
+                    "hobby" : "Traveling",
+                    "email": "mauren.tomas@myapp.com"
+                }
+
+            ]
+}
+
