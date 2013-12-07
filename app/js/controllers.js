@@ -41,6 +41,7 @@ angular.module('myApp.controllers', []).
         //There is nothing!
         //test step1
         //test step2
+        //test step3 master
     }])
   .controller('UserDetailCtrl', ['$scope', '$routeParams', 'dataService', function(s, r, d) {
         var selectedId = r.id;
